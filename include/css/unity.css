@@ -1,0 +1,23 @@
+* {
+    line-height: 1.5rem;
+}
+main {
+    background-color: rgb(255, 255, 255);
+}
+.wrap {
+    overflow: hidden;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0);
+    z-index: 100;
+    display: none;
+}
+
+input, textarea {
+    caret-color: hsl(204, 86%, 53%);
+}
